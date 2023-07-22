@@ -1,0 +1,16 @@
+<div class = "category_head">
+     <a href="<%= categories_path %>">
+            <i class="fa-solid fa-arrow-left" id = "left-arrow"></i>
+        </a>
+    <h2>New Category</h2>
+    <a href="/logout" id = "left-arrow">
+        LOG OUT
+    </a>
+</div>
+<%= form_with(model: @category, url:categories_path) do |form| %>
+    <div class= "form-container">
+        <%= form.text_field :name, placeholder: "Name" %>
+        <%= form.text_field :icon, placeholder: "brand logo" %>
+        <%= form.submit "Create", class: "submit-button" %>
+    </div>
+<% end %>

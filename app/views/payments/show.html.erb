@@ -1,0 +1,8 @@
+<%= render @payment %>
+
+<div>
+  <%= link_to "Edit", edit_payment_path(@payment) %> |
+  <%= link_to "Back", payments_path %>
+
+  <%= button_to "Destroy", @payment, method: :delete %>
+</div>
