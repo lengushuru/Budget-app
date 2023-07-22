@@ -1,3 +1,7 @@
+# The ApplicationHelper module contains helper methods that can be used across views
+# and other parts of the Rails application. These methods are accessible to all views
+# and provide reusable functionality to assist with rendering and other tasks.
+
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 

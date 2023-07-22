@@ -7,12 +7,16 @@
   font-family: lato, sans-serif;
 }
 
-p,h1,h2,h3,h4 {
+p,
+h1,
+h2,
+h3,
+h4 {
   font-weight: 600;
   font-family: Merienda, sans-serif;
 }
 
-a { 
+a {
   text-decoration: none;
   color: gray;
 }
@@ -30,7 +34,7 @@ a {
 }
 
 .budget {
-  color: rgb(236, 14, 117)
+  color: rgb(236, 14, 117);
 }
 
 .category p {
@@ -112,7 +116,6 @@ a {
   border: none;
   font-size: 1.1em;
   border-radius: 3px;
- 
 }
 
 .form-container input {
@@ -135,7 +138,9 @@ a {
   margin-top: 1rem;
 }
 
-#white-arrow-icon, #left-arrow, #nav-txt {
+#white-arrow-icon,
+#left-arrow,
+#nav-txt {
   color: white;
 }
 
@@ -147,6 +152,7 @@ a {
   color: #fff;
   width: 30px;
 }
+
 .container {
   background-color: white;
   color: #fff;
@@ -252,7 +258,6 @@ a {
 .navbar > button {
   border: none;
 }
-
 
 .field input[type="email"],
 .field input[type="text"],
