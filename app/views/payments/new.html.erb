@@ -1,9 +1,9 @@
 <%= form_with(model: @payment, url: category_payments_path) do |form| %>
 <div class = "category_head">
-   <a href ="<%= category_payments_path %>"><i class="fa-solid fa-arrow-left"></i></a>
+   <a href ="<%= category_payments_path %>"><i class="fa-solid fa-arrow-left" id="left-arrow"></i></a>
    <p> New Transaction </p>
-    <a href="/logout">
-        <i class="fa-solid fa-right-from-bracket"></i>
+    <a href="/logout" id = "left-arrow" >
+        Log out
     </a>
 </div>
 
