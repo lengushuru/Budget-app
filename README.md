@@ -59,7 +59,7 @@ Smartbudget is a mobile web application where users can manage their budget: use
 ## Live Demo
 
 - [Live Demo](https://charles-ppgg.onrender.com/)
-- [Project video Link](https://charles-ppgg.onrender.com/)
+- [Project video Link](https://www.loom.com/share/8c5807dbd0f342c483ab07fdc850b763?sid=c9f4a3c7-9bf3-4061-b458-39730f47e30f)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
