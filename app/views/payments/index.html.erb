@@ -1,0 +1,28 @@
+<div class = "category_head">
+<a href= "<%= categories_path %>">
+<i class="fa-solid fa-arrow-left" id = "left-arrow"></i></a>
+<h2> transaction</h2>
+<a href = "/logout" id = "nav-txt">
+Log out
+</a>
+</div>
+
+<div>
+<% if @payments.nil? %>
+ <p>No transaction available for now.</p>
+ <% else %>
+ <% @payments.each do |payment| %>
+<p> Total: <%= @category.total_transaction_amount%>$</p>
+ <div class = "category" >
+   <p><%= payment.name %></p>
+   <p>Price: <%= payment.amount %>$ </p>
+ </div>
+ <% end %>
+ <% end %>
+ <div class = "footer_container">
+ <div class ="footer">
+ <%= link_to 'Add New Transaction', new_category_payment_path, class: "footer_link" %>
+ <i class="fa-solid fa-plus"></i>
+ </div>
+ </div>
+</div>
