@@ -11,6 +11,7 @@ Log out
 <% if @payments.nil? %>
  <p>No transaction available for now.</p>
  <% else %>
+<p> Total: <%= @category.total_transaction_amount%>$</p>
  <% @payments.each do |payment| %>
  <div class = "category" >
    <p><%= payment.name %></p>
